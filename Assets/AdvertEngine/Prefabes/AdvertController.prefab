@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &290760223419865160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 290760223419865162}
+  - component: {fileID: 290760223419865163}
+  - component: {fileID: 290760223419865165}
+  - component: {fileID: 290760223419865164}
+  - component: {fileID: 290760223419865167}
+  m_Layer: 0
+  m_Name: AdvertController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &290760223419865162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290760223419865160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &290760223419865163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290760223419865160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0c1f740d3dd7747a6b5096aaf19647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityAdsModule: {fileID: 290760223419865167}
+  admobAdsModule: {fileID: 290760223419865165}
+  fbAudienceAdModule: {fileID: 290760223419865164}
+  showBannerOnGameStart: 1
+  loadInterstitialAdsOnStart: 1
+  loadRewardedAdOnStart: 1
+  bannerAdsNetworksPeriority: 000000000200000001000000
+  isToReloadBannerOnFailure: 1
+  bannerReloadTime: 30
+  showBannerOnLoad: 0
+  interstitialAdsNetworkPeriority: 000000000200000001000000
+  rewardedAdsNetworkPeriority: 000000000100000002000000
+  gameOverAdType: 1
+  gameOverNetworksPeriority: 010000000200000000000000
+  levelCompletedAdType: 2
+  LevelCompletedNetworksPeriority: 010000000000000002000000
+  gamePauseAdsType: 1
+  gamePauseNetworksPeriority: 020000000000000001000000
+  gameExitAdsType: 2
+  gameExitNetworksPeriority: 010000000000000002000000
+--- !u!114 &290760223419865165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290760223419865160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618a20ae7a2ecf841ad894998dafab79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTestAds: 1
+  admobAppId: ca-app-pub-4468610029362952~8777197391
+  admobBannerId: ca-app-pub-4468610029362952/7244623878
+  admobIntersititialId: ca-app-pub-4468610029362952/5165255443
+  admobRewardedId: ca-app-pub-4468610029362952/6929639548
+  bannerSize: 1
+  bannerPosition: 1
+--- !u!114 &290760223419865164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290760223419865160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f41836ff508a6ed4db63a47aab5fc929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bannerAdId: 2241977152525875_2241988792524711
+  intersititialAdId: 2241977152525875_2241984872525103
+  rewardedAdId: 2241977152525875_2241984872525103
+  testAds: 0
+  bannerAdPosition: 2
+  bannerAdSize: 0
+--- !u!114 &290760223419865167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290760223419865160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340dc3d85c5be1749944e9ce569d5a0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityAdsId: 3001139
+  showTestAd: 1
+  bannerAdPlacement: Banner
+  intersititialAdPlacement: video
+  rewardedAdPlacement: rewardedVideo
+  bannerPosition: 4
